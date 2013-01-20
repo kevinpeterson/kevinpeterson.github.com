@@ -1,0 +1,20 @@
+.projectbar {
+  border-style:   none;
+  font-family:    'Open Sans Condensed', 'Open Sans', sans-serif;
+  font-size:      1.125em;
+  text-transform: uppercase;
+
+  li {
+    display:  inline;
+    margin:   0px 0.414em;
+  }
+
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}

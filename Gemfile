@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'coffee-script'
+gem 'compass'
+gem 'jekyll'
+gem 'jekyll-assets'
+gem 'rake'
+gem 'redcarpet'
+gem 'respond-to'
+gem 'rubyzip'
+gem 'sass'
+gem 'uglifier'
