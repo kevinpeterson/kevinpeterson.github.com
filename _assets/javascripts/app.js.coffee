@@ -66,11 +66,11 @@ do ($ = jQuery, window) ->
 
   $ ->
     # Google Analytics
-    window._gaq = [ ["_setAccount", "UA-35573678-1"], ["_trackPageview"] ];
+    window._gaq = [ ["_setAccount", "UA-37727678-1"], ["_trackPageview"] ];
     injectScript "http://www.google-analytics.com/ga.js"
 
     # Disqus
-    window.disqus_shortname = "ixti";
+    window.disqus_shortname = "kevinpeterson";
     injectScript "http://#{window.disqus_shortname}.disqus.com/embed.js"
 
     # Light/Dark theme switcher
