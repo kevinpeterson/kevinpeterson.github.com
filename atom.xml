@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kevin Peterson</title>
+  <id>http://kevinp.me/</id>
+  <updated>2013-04-05T22:55:10-05:00</updated>
+
+  <author>
+    <name>Kevin peterson</name>
+    <email>kevin@kevinp.me</email>
+  </author>
+
+  
+  <entry>
+    <title>First Contact 50th Pre-Anniversary</title>
+    <link href="/toy-department/2013/04/05/first-contact-50th-pre-anniversary.html"/>
+    <id>/toy-department/2013/04/05/first-contact-50th-pre-anniversary</id>
+    <updated>2013-04-05T00:00:00-05:00</updated>
+    <summary type="html">&lt;p&gt;Today is a historic day. Er&amp;hellip; well, it will be a historic day. Fifty years from now, on April 5th 2063, Zefram Cochrane will make the first warp flight from Earth, ushering us into a new age.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Today is a historic day. Er&amp;hellip; well, it will be a historic day. Fifty years from now, on April 5th 2063, Zefram Cochrane will make the first warp flight from Earth, ushering us into a new age.&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;#39;t know what I&amp;#39;m talking about, a Star Trek fan will be happy to explain it all – but here’s the synopsis: Dr. Cochrane, riding on his converted ICBM, helping to move humanity out of its “infancy” and into the larger community of the universe.  Warp flight is considered a civilization’s “coming of age” moment, and that moment is 50 years from today. Ironically, it is done on an old ICBM. It is interesting that as we beat our swords into ploughshares, we usually just end up with bigger swords. But I digress…&lt;/p&gt;
+
+&lt;p&gt;As you are celebrating (and I assume that you are), take time to reflect, and look forward to the next 50 years. Happy First Contact 50th Pre-Anniversary Day!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Don&amp;#39;t try to be a great man, just be a man. And let history make its own judgments. &lt;cite&gt;Dr. Zefram Cochrane&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>LambdaWiki</title>
+    <link href="/software/2013/01/19/lambdawiki.html"/>
+    <id>/software/2013/01/19/lambdawiki</id>
+    <updated>2013-01-19T00:00:00-06:00</updated>
+    <summary type="html">&lt;p&gt;A collaborative wiki, with a LISP syntax. And I don&amp;#39;t mean the wiki engine is written in LISP. I mean the page content is.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;A collaborative wiki, with a LISP syntax. And I don&amp;#39;t mean the wiki engine is written in LISP. I mean the page content is.&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;what?&lt;/p&gt;
+
+&lt;p&gt;Functional programming seems to have become chic again. Coming from an OO background, I have and little exposure to functional programming, save from some Scheme as an undergrad (you remember that, don&amp;#39;t you?). Scala was a nice gateway language for me. I started to see the advantages.&lt;/p&gt;
+
+&lt;p&gt;LambdaWiki was my attempt at learing some of the fundamental concepts of functional programming. Writing the LISP compiler in Javascript was interesting and fun - I learned alot. Making it into a wiki started off as a goof, but it actually turned out to be semi-useful. Who&amp;#39;d have thought?&lt;/p&gt;
+
+&lt;p&gt;So, if you&amp;#39;ve ever wanted to write a link that looks like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;common-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;lt;a href=&amp;quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;lt;/a&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;http://kevinp.me&amp;quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Kevin&amp;#39;s Page&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;LambdaWiki might just be for you. &lt;a href=&quot;http://lambdawiki.kevinp.me&quot;&gt;Try it out&lt;/a&gt; and &lt;a href=&quot;https://github.com/kevinpeterson/lambdawiki&quot;&gt;check out the code&lt;/a&gt;, and let me know what you think!&lt;/p&gt;
+</content>
+  </entry>
+  
+</feed>
